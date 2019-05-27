@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+    position: relative;
+    height: 480px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}

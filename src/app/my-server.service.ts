@@ -24,6 +24,11 @@ export class MyServerService {
    }
 
    getAllUsers(){
-    return this.http.get(this.baseUrl + 'addClient');
+    return this.http.get(this.baseUrl + 'allUsers');
    }
+
+   login(username, password){
+    return this.http.post(this.baseUrl + 'login', {username: username, password: password});
+   }
+
 }
