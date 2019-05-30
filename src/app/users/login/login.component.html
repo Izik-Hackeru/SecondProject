@@ -1,10 +1,10 @@
 <div class="container">
   <div class="center">
     <div>
-      <input type="text" placeholder="User Name" [(ngModel)]="username"/>
+      <input type="text" placeholder="User Name" [(ngModel)]="username" #input1 />
     </div>
     <div>
-        <input type="password" placeholder="Password" [(ngModel)]="password" />
+      <input type="password" placeholder="Password" [(ngModel)]="password" />
     </div>
     <input type="button" (click)="login()" value="LOGIN" />
   </div>
